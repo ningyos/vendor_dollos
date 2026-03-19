@@ -25,6 +25,9 @@ PRODUCT_PACKAGES_REMOVE += \
     Auditor \
     Updater
 
+# DollOS framework overlay (power button config)
+PRODUCT_PACKAGE_OVERLAYS += vendor/dollos/overlay
+
 # DollOS SELinux policy
 BOARD_VENDOR_SEPOLICY_DIRS += vendor/dollos/sepolicy
 

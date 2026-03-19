@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- DollOS: double-press power button launches AI Task Manager -->
+    <!-- DollOS: double-press power button calls AI Activity -->
     <integer name="config_doublePressOnPowerBehavior">3</integer>
     <string name="config_doublePressOnPowerTargetActivity" translatable="false">org.dollos.service/.taskmanager.TaskManagerActivity</string>
+
+    <!-- DollOS: power menu items -->
+    <string-array translatable="false" name="config_globalActionsList">
+        <item>emergency</item>
+        <item>lockdown</item>
+        <item>power</item>
+        <item>restart</item>
+        <item>aiactivity</item>
+        <item>aistop</item>
+        <item>logout</item>
+        <item>screenshot</item>
+        <item>bugreport</item>
+    </string-array>
 </resources>
